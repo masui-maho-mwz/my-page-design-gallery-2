@@ -1,3 +1,5 @@
+import { Header } from '@/features/normal-header/header/page';
+
 export default function NormalHeaderLayout({
   children,
 }: Readonly<{
@@ -5,7 +7,9 @@ export default function NormalHeaderLayout({
 }>) {
   return (
     <div>
+      <Header />
       <main>{children}</main>
+      <div>footer</div>
     </div>
   );
 }
