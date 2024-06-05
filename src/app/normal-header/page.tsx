@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 export default function NormalHeaderHome() {
   return (
-    <div className={styles.root}>
+    <div>
       <div className={styles.main}>
         <Contents />
         <RightSidePanel />

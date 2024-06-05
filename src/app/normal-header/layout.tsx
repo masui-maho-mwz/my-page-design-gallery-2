@@ -1,3 +1,4 @@
+import { Footer } from '@/features/normal-header/footer';
 import { Header } from '@/features/normal-header/header/page';
 
 export default function NormalHeaderLayout({
@@ -9,7 +10,7 @@ export default function NormalHeaderLayout({
     <div>
       <Header />
       <main>{children}</main>
-      <div>footer</div>
+      <Footer />
     </div>
   );
 }
