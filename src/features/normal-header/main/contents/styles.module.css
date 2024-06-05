@@ -1,0 +1,12 @@
+.root {
+  width: 912px;
+  margin-left: 160px;
+  background-color: white;
+  background-color: violet;
+  border-radius: 8px;
+}
+
+.text {
+  height: 2000px;
+  margin: 48px;
+}

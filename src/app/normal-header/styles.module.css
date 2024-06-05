@@ -1,11 +1,9 @@
 .root {
-  background-color: #f5f6f6;
+  height: 100vh;
 }
 
 .main {
-  background-color: white;
-}
-
-.right {
-  background-color: antiquewhite;
+  display: flex;
+  padding: 16px 24px 0px;
+  background-color: #f5f6f6;
 }
