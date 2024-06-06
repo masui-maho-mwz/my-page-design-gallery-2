@@ -1,4 +1,30 @@
 .root {
+  display: flex;
+  justify-content: space-between;
   padding: 12px 16px;
   background-color: lightblue;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.input {
+  padding: 8px 140px 8px 32px;
+  background-color: #edeeee;
+  border: none;
+  border-radius: 8px;
+  color: #afb0b0;
+}
+
+.buttons {
+  display: flex;
+  gap: 8px;
 }
