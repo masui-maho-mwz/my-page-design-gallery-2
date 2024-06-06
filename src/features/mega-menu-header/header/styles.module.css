@@ -1,0 +1,14 @@
+.root {
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  background-color: yellowgreen;
+}
+
+.logo {
+  width: 32px;
+  height: 32px;
+  background-color: aliceblue;
+}

@@ -1,3 +1,5 @@
+import { Header } from '@/features/mega-menu-header/header';
+
 export default function MegaMenuHeader({
   children,
 }: Readonly<{
@@ -5,6 +7,7 @@ export default function MegaMenuHeader({
 }>) {
   return (
     <div>
+      <Header />
       <main>{children}</main>
     </div>
   );
