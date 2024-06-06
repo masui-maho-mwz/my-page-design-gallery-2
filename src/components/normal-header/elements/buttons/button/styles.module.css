@@ -1,5 +1,4 @@
 .root {
-  display: inline-block;
   padding: 8px 16px;
   border: 1px solid #357a00;
   border-radius: 8px;
@@ -10,11 +9,6 @@
   font-weight: bold;
   text-decoration: none;
 }
-.root:hover:not(:disabled) {
+.root:hover {
   background-color: rgba(53, 122, 0, 0.2) !important;
-}
-.root:disabled {
-  background-color: rgb(169, 169, 169);
-  border-color: rgb(169, 169, 169);
-  cursor: not-allowed;
 }
