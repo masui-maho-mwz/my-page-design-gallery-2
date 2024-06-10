@@ -1,3 +1,4 @@
+import { Footer } from '@/features/mega-menu-header/ footer';
 import { Header } from '@/features/mega-menu-header/header';
 
 export default function MegaMenuHeader({
@@ -9,7 +10,7 @@ export default function MegaMenuHeader({
     <div>
       <Header />
       <main>{children}</main>
-      <div>footer component 作る</div>
+      <Footer />
     </div>
   );
 }

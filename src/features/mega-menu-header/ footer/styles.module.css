@@ -1,0 +1,12 @@
+.nav {
+  display: flex;
+  align-items: center;
+  height: 488px;
+  padding: 50px 25px;
+  background-color: #f3f3f3;
+}
+
+.lists {
+  width: 52.16667%;
+  background-color: white;
+}
