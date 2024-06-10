@@ -18,3 +18,7 @@
 .list:last-child {
   border: none;
 }
+
+.link:hover {
+  color: #999999 !important;
+}

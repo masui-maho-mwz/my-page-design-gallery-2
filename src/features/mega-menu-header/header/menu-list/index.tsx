@@ -32,7 +32,7 @@ export const MenuList = ({ setIsHovering }: Props) => {
           onMouseEnter={() => item.isMegaMenu && setIsHovering(`megaMenu${item.id}`)}
           onMouseLeave={() => item.isMegaMenu && setIsHovering(null)}
         >
-          <Button type="link" value={item.value} href={item.href} color="rgb(8, 96, 168)" />
+          <Button type="link" value={item.value} href={item.href} color="rgb(8, 96, 168)" className={styles.link} />
         </li>
       ))}
     </ul>
