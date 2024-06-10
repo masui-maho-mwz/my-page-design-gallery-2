@@ -9,6 +9,7 @@ export default function MegaMenuHeader({
     <div>
       <Header />
       <main>{children}</main>
+      <div>footer component 作る</div>
     </div>
   );
 }
