@@ -1,4 +1,5 @@
 .root {
-  background-color: teal;
-  height: 300px;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
 }

@@ -1,4 +1,6 @@
 .root {
-  background-color: lavender;
-  height: 300px;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  gap: 32px;
 }
