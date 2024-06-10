@@ -31,7 +31,7 @@ export const SliderComponent = ({ images }: Props) => {
     <div className={styles.root}>
       <Slider {...settings} className={styles.root}>
         {images.map(({ id, src, alt }) => (
-          <Image key={id} src={src} alt={alt} className={styles.img} width={1024} height={540} />
+          <Image key={id} src={src} alt={alt} className={styles.img} width={540} height={540} />
         ))}
       </Slider>
     </div>

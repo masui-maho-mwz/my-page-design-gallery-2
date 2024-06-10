@@ -9,7 +9,7 @@ const images = [
 
 export default function MegaMenuHeader() {
   return (
-    <div className={styles.root}>
+    <div>
       <SliderComponent images={images} />
       <div className={styles.main}>main</div>
     </div>
