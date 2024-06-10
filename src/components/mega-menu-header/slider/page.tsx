@@ -4,11 +4,18 @@ import Image from 'next/image';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
-import green from '../../../../public/green.jpg';
-import red from '../../../../public/red.jpg';
-import water from '../../../../public/water.jpg';
 
 import styles from './styles.module.css';
+
+type Image = {
+  id: number;
+  src: string;
+  alt: string;
+};
+
+type Props = {
+  images: Image[];
+};
 
 const settings = {
   infinite: true,
@@ -19,13 +26,13 @@ const settings = {
   autoplaySpeed: 3000,
 };
 
-export const SliderComponent = () => {
+export const SliderComponent = ({ images }: Props) => {
   return (
     <div className={styles.root}>
       <Slider {...settings} className={styles.root}>
-        <Image src={green} alt="green" className={styles.img} />
-        <Image src={red} alt="red" className={styles.img} />
-        <Image src={water} alt="water" className={styles.img} />
+        {images.map(({ id, src, alt }) => (
+          <Image key={id} src={src} alt={alt} className={styles.img} width={1024} height={540} />
+        ))}
       </Slider>
     </div>
   );
