@@ -11,7 +11,7 @@ export default function MegaMenuHeader() {
   return (
     <div>
       <SliderComponent images={images} />
-      <div className={styles.main}>main</div>
+      <div className={styles.main}></div>
     </div>
   );
 }
