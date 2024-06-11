@@ -18,9 +18,8 @@
   border-radius: 4px;
 }
 
-/* active */
-/* .label:hover {
+.active {
   background-color: #e7effa;
   color: #4f97f4;
   border-radius: 4px;
-} */
+}
