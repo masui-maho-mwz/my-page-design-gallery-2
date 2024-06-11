@@ -1,3 +1,3 @@
 export default function DashBoardMenuHome() {
-  return <div>dash</div>;
+  return <div>maincontents</div>;
 }

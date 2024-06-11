@@ -1,3 +1,6 @@
+import { DashBoard } from '@/features/dashboard-menu/dashboard';
+import { Header } from '@/features/dashboard-menu/header';
+
 export default function DashBoardMenuLayout({
   children,
 }: Readonly<{
@@ -5,6 +8,8 @@ export default function DashBoardMenuLayout({
 }>) {
   return (
     <div>
+      <Header />
+      <DashBoard />
       <main>{children}</main>
     </div>
   );
