@@ -8,15 +8,28 @@
 }
 
 .list {
+  position: relative;
   height: 64px;
   margin-left: 0;
   padding: 0 12px;
-  /* TODO: 本来線の長さは文字の高さと同じくらいです。現在は、ホバーした時に反応する範囲を優先しています。両立する方法は時間があったら検討します。 */
-  border-right: 1px solid #d8d8d8;
 }
 
-.list:last-child {
+.list::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  height: 16px;
+  transform: translateY(-50%);
+  border-right: 1px solid rgb(8, 96, 168);
+}
+
+.list:last-child::after {
   border: none;
+}
+
+.list::after:hover {
+  border-right: 1px solid #d8d8d8;
 }
 
 .link:hover {
