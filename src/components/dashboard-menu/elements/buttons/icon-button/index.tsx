@@ -14,5 +14,3 @@ export const IconButton = ({ icon, onClick, disabled = false }: Props) => {
     </button>
   );
 };
-
-// export default IconButton;
