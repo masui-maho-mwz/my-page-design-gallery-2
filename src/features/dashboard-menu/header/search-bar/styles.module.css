@@ -28,7 +28,12 @@
 }
 
 .input {
-  padding-left: 48px;
+  padding-left: 32px;
   background-color: transparent;
   border: none;
+  font-weight: bold;
+}
+
+.input:focus {
+  outline: none;
 }
