@@ -1,5 +1,6 @@
 import { DashBoard } from '@/features/dashboard-menu/dashboard';
 import { Header } from '@/features/dashboard-menu/header';
+import styles from './layout.module.css';
 
 export default function DashBoardMenuLayout({
   children,
@@ -10,7 +11,7 @@ export default function DashBoardMenuLayout({
     <div>
       <Header />
       <DashBoard />
-      <main>{children}</main>
+      <main className={styles.main}>{children}</main>
     </div>
   );
 }
