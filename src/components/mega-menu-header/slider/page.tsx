@@ -5,8 +5,6 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick-theme.css';
 import 'slick-carousel/slick/slick.css';
 
-import styles from './styles.module.css';
-
 type Image = {
   id: number;
   src: string;
@@ -28,10 +26,10 @@ const settings = {
 
 export const SliderComponent = ({ images }: Props) => {
   return (
-    <div className={styles.root}>
-      <Slider {...settings} className={styles.root}>
+    <div>
+      <Slider {...settings}>
         {images.map(({ id, src, alt }) => (
-          <Image key={id} src={src} alt={alt} className={styles.img} width={540} height={540} />
+          <Image key={id} src={src} alt={alt} width={540} height={540} />
         ))}
       </Slider>
     </div>
