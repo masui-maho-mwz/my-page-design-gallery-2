@@ -1,0 +1,39 @@
+.root {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 87.5px;
+  padding: 15px 25px 20px 25px;
+  color: #bebebe;
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.logo {
+  width: 24px;
+  height: 24px;
+}
+
+.lists {
+  display: flex;
+}
+
+.list {
+  padding: 0 8px;
+  border-right: 1px solid #bebebe;
+  list-style: none;
+}
+
+.list:last-child {
+  border: none;
+}
+
+.link {
+  color: #bebebe;
+  font-size: 14px;
+  text-decoration: none;
+}
