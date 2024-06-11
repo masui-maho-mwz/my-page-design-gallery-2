@@ -1,6 +1,5 @@
 .root {
   display: flex;
-  height: 488px;
   padding: 50px 25px;
   background-color: #f3f3f3;
 }
@@ -21,8 +20,13 @@
   margin-bottom: 20px;
 }
 
+.item:last-child {
+  margin-bottom: 0;
+}
+
 .link {
   color: #555;
+  font-size: small;
   text-decoration: none;
 }
 

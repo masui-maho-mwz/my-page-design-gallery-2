@@ -19,7 +19,7 @@ export const Options = ({ links }: Props) => {
         <div className={styles.logo}>
           <AbstractLogo />
         </div>
-        <small>Copyright ©xxxx Corporation. All rights reserved.</small>
+        <small className={styles.text}>Copyright ©xxxx Corporation. All rights reserved.</small>
       </div>
       <ul className={styles.lists}>
         {links.map(({ id, url, text }) => (

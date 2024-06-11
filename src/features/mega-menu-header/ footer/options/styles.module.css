@@ -4,7 +4,7 @@
   align-items: center;
   margin: 0 87.5px;
   padding: 15px 25px 20px 25px;
-  color: #bebebe;
+  color: #9e9e9e;
 }
 
 .wrap {
@@ -18,13 +18,18 @@
   height: 24px;
 }
 
+.text {
+  font-size: 8px;
+}
+
 .lists {
   display: flex;
+  margin: 0;
 }
 
 .list {
   padding: 0 8px;
-  border-right: 1px solid #bebebe;
+  border-right: 1px solid #9e9e9e;
   list-style: none;
 }
 
@@ -33,7 +38,7 @@
 }
 
 .link {
-  color: #bebebe;
-  font-size: 14px;
+  color: #9e9e9e;
+  font-size: 12px;
   text-decoration: none;
 }
