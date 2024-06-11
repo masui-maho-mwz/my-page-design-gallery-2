@@ -1,7 +1,7 @@
 .root {
   display: flex;
   align-items: center;
-  margin: 24px 20px;
+  margin: 24px 0;
   padding: 16px 20px;
   background-color: rgba(145, 158, 171, 0.12);
   border-radius: 12px;

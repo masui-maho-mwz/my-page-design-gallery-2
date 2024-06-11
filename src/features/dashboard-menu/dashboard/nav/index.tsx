@@ -15,8 +15,8 @@ export const Nav = ({ items }: Props) => {
   return (
     <nav className={styles.root}>
       {items.map(({ id, label, href }) => (
-        <Link key={id} href={href}>
-          <div>{label}</div>
+        <Link key={id} href={href} className={styles.link}>
+          <div className={styles.label}>{label}</div>
         </Link>
       ))}
     </nav>
