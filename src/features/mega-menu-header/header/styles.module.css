@@ -9,7 +9,5 @@
 .logo {
   width: 32px;
   height: 32px;
-  /* MEMO: MegaMenu を画面の横幅いっぱいに広げたいので、親要素のpaddingではなく、ここにマージンを追加しました。 */
   margin-left: 24px;
-  background-color: aliceblue;
 }
