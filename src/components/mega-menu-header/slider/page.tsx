@@ -23,11 +23,12 @@ const settings = {
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 3000,
+  arrows: false,
 };
 
-export const SliderComponent = ({ images }: Props) => {
+export const SliderComponent: React.FC<Props> = ({ images }: Props) => {
   return (
-    <div>
+    <div className={styles.abc}>
       <Slider {...settings} className={styles.root}>
         {images.map(({ id, src, alt }) => (
           <div key={id} className={styles.wrap}>
