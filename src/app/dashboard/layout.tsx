@@ -1,5 +1,5 @@
-import { DashBoard } from '@/features/dashboard-menu/dashboard';
-import { Header } from '@/features/dashboard-menu/header';
+import { Header } from '@/features/dashboard/header';
+import { LeftNavigation } from '@/features/dashboard/left-navigation';
 import styles from './layout.module.css';
 
 export default function DashBoardMenuLayout({
@@ -10,7 +10,7 @@ export default function DashBoardMenuLayout({
   return (
     <div>
       <Header />
-      <DashBoard />
+      <LeftNavigation />
       <main className={styles.main}>{children}</main>
     </div>
   );

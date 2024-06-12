@@ -1,5 +1,5 @@
-import { Button } from '@/components/dashboard-menu/elements/buttons/button';
-import { Loupe } from '@/components/dashboard-menu/icons/loupe';
+import { Button } from '@/components/dashboard/elements/buttons/button';
+import { Loupe } from '@/components/dashboard/icons/loupe';
 import { useEffect, useRef } from 'react';
 import styles from './styles.module.css';
 

@@ -21,5 +21,5 @@ export default function Home() {
 const links = [
   { href: './normal-header', label: 'normal-header' },
   { href: './mega-menu-header', label: 'mega-menu-header' },
-  { href: './dashboard-menu', label: 'dashboard-menu' },
+  { href: './dashboard', label: 'dashboard' },
 ];

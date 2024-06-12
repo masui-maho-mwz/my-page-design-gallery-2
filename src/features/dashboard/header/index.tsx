@@ -1,10 +1,10 @@
 'use client';
 
-import { IconButton } from '@/components/dashboard-menu/elements/buttons/icon-button';
-import { Bell } from '@/components/dashboard-menu/icons/bell';
-import { Loupe } from '@/components/dashboard-menu/icons/loupe';
-import { UnionJack } from '@/components/dashboard-menu/icons/union-jack';
-import { SearchBar } from '@/features/dashboard-menu/header/search-bar';
+import { IconButton } from '@/components/dashboard/elements/buttons/icon-button';
+import { Bell } from '@/components/dashboard/icons/bell';
+import { Loupe } from '@/components/dashboard/icons/loupe';
+import { UnionJack } from '@/components/dashboard/icons/union-jack';
+import { SearchBar } from '@/features/dashboard/header/search-bar';
 import { useState } from 'react';
 import styles from './styles.module.css';
 

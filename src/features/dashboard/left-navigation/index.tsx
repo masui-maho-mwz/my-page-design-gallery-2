@@ -1,21 +1,21 @@
-import { AbstractLogo } from '@/components/dashboard-menu/logos/teq-quest-logos';
-import { Nav } from '@/features/dashboard-menu/dashboard/nav';
-import { Profile } from '@/features/dashboard-menu/dashboard/profile';
+import { AbstractLogo } from '@/components/dashboard/logos/teq-quest-logos';
+import { Nav } from '@/features/dashboard/left-navigation/nav';
+import { Profile } from '@/features/dashboard/left-navigation/profile';
 import styles from './styles.module.css';
 
-export const DashBoard = () => {
+export const LeftNavigation = () => {
   return (
     <div className={styles.root}>
       <div className={styles.logo}>
         <AbstractLogo />
       </div>
       <Profile />
-      <Nav items={Navitems} />
+      <Nav items={items} />
     </div>
   );
 };
 
-const Navitems = [
+const items = [
   { id: 1, label: 'ナビ１', href: '#' },
   { id: 2, label: 'ナビ２', href: '#' },
   { id: 3, label: 'ナビ３', href: '#' },
