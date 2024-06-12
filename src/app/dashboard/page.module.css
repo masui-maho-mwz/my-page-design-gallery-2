@@ -1,0 +1,12 @@
+.root {
+  width: calc(100% - 80px);
+  margin: auto;
+}
+
+.wrap {
+  height: 2000px;
+  width: 100%;
+  background-color: white;
+  color: black;
+  border-radius: 9px;
+}

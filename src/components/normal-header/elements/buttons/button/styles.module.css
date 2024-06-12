@@ -1,0 +1,14 @@
+.root {
+  padding: 8px 16px;
+  border: 1px solid #357a00;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.root:hover {
+  background-color: rgba(53, 122, 0, 0.2) !important;
+}

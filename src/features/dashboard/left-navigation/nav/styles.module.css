@@ -1,0 +1,25 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.link {
+  color: #637381;
+  text-decoration: none;
+}
+
+.label {
+  padding: 12px;
+}
+
+.label:hover {
+  background-color: rgba(145, 158, 171, 0.12);
+  border-radius: 4px;
+}
+
+.active {
+  background-color: #e7effa;
+  color: #4f97f4;
+  border-radius: 4px;
+}
